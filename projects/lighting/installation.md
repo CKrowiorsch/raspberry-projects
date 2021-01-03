@@ -47,3 +47,7 @@ pixels[0] = (0,255,0)
 # Set Brightness
 pixels.brightness = 0.5
 ```
+
+## Sources
+
+<https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython#python-installation-of-neopixel-library-17-9>
