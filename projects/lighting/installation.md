@@ -2,7 +2,7 @@
 
 * Setup raspberry
 * Update System
-* Install Python + pip `sudo apt-get install python3-pip`
+* Install Python + pip `sudo apt-get install python3-pip python3-rpi.gpio`
 * einschalten IC2 +  SPI in `sudo raspi-config`
   * install IC2 Libs `sudo apt-get install -y python-smbus i2c-tools`
   * Check IC2 `sudo i2cdetect -y 1`
@@ -10,8 +10,9 @@
 * Second SPI `dtoverlay=spi1-3cs`
 * Python-Libaries
   * `pip3 install RPI.GPIO adafruit-blinka`
+  * `sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel`
 
-# Check Installation
+## Check Installation
 
 ```python
 import board

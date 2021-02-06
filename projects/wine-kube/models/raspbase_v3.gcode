@@ -16,6 +16,27 @@ M104 S200
 M105
 M109 S200
 M82 ;absolute extrusion mode
+; Script based on an original created by tjjfvi (https://github.com/tjjfvi)
+; An up-to-date version of the tjjfvi's original script can be found
+; here:  https://csi.t6.fyi/
+; Note - This script will only work in Cura V4.2 and above!
+; --- Global Settings
+; layer_height = 0.2
+; smooth_spiralized_contours = True
+; magic_mesh_surface_mode = normal
+; machine_extruder_count = 1
+; --- Single Extruder Settings
+; speed_z_hop = 10
+; retraction_amount = 6
+; retraction_hop = 0.075
+; retraction_hop_enabled = True
+; retraction_enable = True
+; retraction_speed = 40
+; retraction_retract_speed = 40
+; retraction_prime_speed = 40
+; speed_travel = 100
+
+
 G21 ;metric values
 G90 ;absolute positioning
 M82 ;set extruder to absolute mode
